@@ -1,0 +1,53 @@
+# Prediction Market Topic Status
+
+- Latest snapshot: `2026-06-11T09:21:27+00:00`
+- Previous snapshot: `2026-06-11T09:18:05+00:00`
+- Current topic count: `61`
+
+## Status Counts
+
+- `hot`: 37
+- `active`: 11
+- `excluded`: 11
+- `watchlist`: 2
+
+## Current Principles
+
+- Low trading volume does not mean low attention or low value.
+- Newly listed or pre-window markets stay in watchlist/low_liquidity, not ended.
+- Only closed/resolved/settled markets are treated as ended.
+- Current counts use the latest snapshot only; historical snapshots are for trend analysis.
+
+## New Topics
+
+- None
+
+## Missing From Latest
+
+- None
+
+## Status Changes
+
+- None
+
+## Price Moves
+
+- None
+
+## Volume Growth
+
+- Will Algeria win the 2026 FIFA World Cup?: `{'topic_id': 'db13bf89ada654fb', 'from': 4102005.341, 'to': 4112307.313, 'delta': 10301.972000000067}`
+- Will Croatia win the 2026 FIFA World Cup?: `{'topic_id': 'b4c4cbdfabb3d51e', 'from': 2013722.5073010002, 'to': 2041001.5526349999, 'delta': 27279.045333999675}`
+- Will Ghana win the 2026 FIFA World Cup?: `{'topic_id': 'ebe929a10be5d637', 'from': 2030696.943, 'to': 2044692.0469999998, 'delta': 13995.103999999817}`
+- Will Iran win the 2026 FIFA World Cup?: `{'topic_id': '2b3fa062b111bfb0', 'from': 2725609.836000004, 'to': 2739650.186000005, 'delta': 14040.350000001024}`
+- Will Italy win the 2026 FIFA World Cup?: `{'topic_id': 'c502f7b753bf6990', 'from': 105223114.22850403, 'to': 105684122.35347104, 'delta': 461008.12496700883}`
+- Will Japan win the 2026 FIFA World Cup?: `{'topic_id': 'd9bdd6d90d211e50', 'from': 2566187.4186999965, 'to': 2588866.129954998, 'delta': 22678.71125500137}`
+- Will Peru win the 2026 FIFA World Cup?: `{'topic_id': '3e6bf8636af04c0d', 'from': 105223114.22850403, 'to': 105684122.35347104, 'delta': 461008.12496700883}`
+- Will Scotland win the 2026 FIFA World Cup?: `{'topic_id': 'da126cc4e23ce443', 'from': 3032004.741817996, 'to': 3042762.991317996, 'delta': 10758.249499999918}`
+- Will South Korea win the 2026 FIFA World Cup?: `{'topic_id': '7fead0339f8f7db4', 'from': 2622452.683132003, 'to': 2635485.406632003, 'delta': 13032.723499999847}`
+- Will Tunisia win the 2026 FIFA World Cup?: `{'topic_id': '1edeeabc28ffa0d6', 'from': 194427.79, 'to': 204427.79, 'delta': 10000.0}`
+
+## Watchlist / Low Liquidity
+
+- `watchlist` Will Any Other Team win the 2026 FIFA World Cup? - Other bucket requires manual review
+- `watchlist` Will any World Cup game scheduled in the U.S. be relocated abroad? - Low current volume; may be early or outside event window

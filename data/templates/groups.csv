@@ -1,0 +1,13 @@
+group_code,teams,attention_level,trade_volume_estimate,information_gap_level,group_type,key_story,primary_opportunities,primary_risks
+A,"Mexico;South Africa;South Korea;Czechia",medium_high,medium,medium,host_plus_swing,Mexico host pressure with three swing teams,price discipline;second-third place markets,opening match emotion
+B,"Canada;Bosnia and Herzegovina;Qatar;Switzerland",medium,medium,medium,stable_favorite_swing,Switzerland stability and Canada host factor,qualification;low variance;host price gaps,low scoring traps
+C,"Brazil;Morocco;Haiti;Scotland",high,high,medium,strong_weak_swing,Brazil vs Morocco headline and Haiti weak-side radar,handicap;team totals;third place,public Brazil pressure
+D,"United States;Paraguay;Australia;Turkey",high,high,medium,host_competitive,USA host trading volume with competitive opponents,anti-public;draws;cards,host narrative overpricing
+E,"Germany;Curacao;Ivory Coast;Ecuador",medium_high,medium_high,high,strong_weak_contenders,Germany vs Curacao weak-side and Ecuador/Ivory Coast fight,team total;qualification;information gap,Germany inconsistency
+F,"Netherlands;Japan;Sweden;Tunisia",medium,medium,high,tactical_group,High tactical quality without extreme mismatch,tempo;corners;qualification,hard to price swing teams
+G,"Belgium;Egypt;Iran;New Zealand",medium,medium,high,low_attention_value,Belgium favorite with unfamiliar challenger mix,low-scoring;weak-side;cards,Belgium name value
+H,"Spain;Cape Verde;Saudi Arabia;Uruguay",high,high,medium,elite_plus_weak,Spain and Uruguay with Cape Verde weak-side radar,team totals;cards;qualification,Spain overpricing
+I,"France;Senegal;Iraq;Norway",very_high,very_high,medium,star_group,France and Norway star narratives plus Senegal quality,star derivatives;qualification;anti-public,high public heat
+J,"Argentina;Algeria;Austria;Jordan",very_high,very_high,medium,defending_champion_group,Argentina defending champion market heat,Argentina win but under spread;Jordan weak-side,Messi narrative
+K,"Portugal;DR Congo;Uzbekistan;Colombia",very_high,very_high,high,star_plus_swing,Portugal/Ronaldo heat and Colombia quality,Portugal anti-overheat;Colombia value;third place,Ronaldo market distortion
+L,"England;Croatia;Ghana;Panama",very_high,very_high,medium,public_heat_group,England public heat and Croatia/Ghana swing value,anti-public;cards;qualification,England overpricing

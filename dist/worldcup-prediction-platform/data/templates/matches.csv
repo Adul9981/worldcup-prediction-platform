@@ -1,0 +1,105 @@
+match_id,date,utc_time,local_time,china_time,stage,group,home_team,away_team,venue,city,priority,watch_status,home_motivation,away_motivation,lineup_confidence,weather_note,referee_note,market_note,initial_prediction,event_focus,no_bet_reason,review_status
+M001,2026-06-11,2026-06-11T19:00:00Z,2026-06-11 15:00 ET,2026-06-12 03:00,Group,A,Mexico,South Africa,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M002,2026-06-12,2026-06-12T02:00:00Z,2026-06-11 22:00 ET,2026-06-12 10:00,Group,A,South Korea,Czechia,待补,待补,B,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M003,2026-06-18,2026-06-19T01:00:00Z,2026-06-18 21:00 ET,2026-06-19 09:00,Group,A,Mexico,South Korea,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M004,2026-06-18,2026-06-18T16:00:00Z,2026-06-18 12:00 ET,2026-06-19 00:00,Group,A,Czechia,South Africa,待补,待补,B,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M005,2026-06-24,2026-06-25T01:00:00Z,2026-06-24 21:00 ET,2026-06-25 09:00,Group,A,Czechia,Mexico,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M006,2026-06-24,2026-06-25T01:00:00Z,2026-06-24 21:00 ET,2026-06-25 09:00,Group,A,South Africa,South Korea,待补,待补,B,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M007,2026-06-12,2026-06-12T19:00:00Z,2026-06-12 15:00 ET,2026-06-13 03:00,Group,B,Canada,Bosnia and Herzegovina,待补,待补,B,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M008,2026-06-13,2026-06-13T19:00:00Z,2026-06-13 15:00 ET,2026-06-14 03:00,Group,B,Qatar,Switzerland,待补,待补,B,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M009,2026-06-18,2026-06-18T22:00:00Z,2026-06-18 18:00 ET,2026-06-19 06:00,Group,B,Canada,Qatar,待补,待补,B,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M010,2026-06-18,2026-06-18T19:00:00Z,2026-06-18 15:00 ET,2026-06-19 03:00,Group,B,Switzerland,Bosnia and Herzegovina,待补,待补,B,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M011,2026-06-24,2026-06-24T19:00:00Z,2026-06-24 15:00 ET,2026-06-25 03:00,Group,B,Switzerland,Canada,待补,待补,B,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M012,2026-06-24,2026-06-24T19:00:00Z,2026-06-24 15:00 ET,2026-06-25 03:00,Group,B,Bosnia and Herzegovina,Qatar,待补,待补,B,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M013,2026-06-13,2026-06-13T22:00:00Z,2026-06-13 18:00 ET,2026-06-14 06:00,Group,C,Brazil,Morocco,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M014,2026-06-13,2026-06-14T01:00:00Z,2026-06-13 21:00 ET,2026-06-14 09:00,Group,C,Haiti,Scotland,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M015,2026-06-19,2026-06-20T00:30:00Z,2026-06-19 20:30 ET,2026-06-20 08:30,Group,C,Brazil,Haiti,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M016,2026-06-19,2026-06-19T22:00:00Z,2026-06-19 18:00 ET,2026-06-20 06:00,Group,C,Scotland,Morocco,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M017,2026-06-24,2026-06-24T22:00:00Z,2026-06-24 18:00 ET,2026-06-25 06:00,Group,C,Scotland,Brazil,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M018,2026-06-24,2026-06-24T22:00:00Z,2026-06-24 18:00 ET,2026-06-25 06:00,Group,C,Morocco,Haiti,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M019,2026-06-12,2026-06-13T01:00:00Z,2026-06-12 21:00 ET,2026-06-13 09:00,Group,D,United States,Paraguay,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M020,2026-06-13,2026-06-14T04:00:00Z,2026-06-14 00:00 ET,2026-06-14 12:00,Group,D,Australia,Turkey,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M021,2026-06-19,2026-06-19T19:00:00Z,2026-06-19 15:00 ET,2026-06-20 03:00,Group,D,United States,Australia,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M022,2026-06-19,2026-06-20T03:00:00Z,2026-06-19 23:00 ET,2026-06-20 11:00,Group,D,Turkey,Paraguay,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M023,2026-06-25,2026-06-26T02:00:00Z,2026-06-25 22:00 ET,2026-06-26 10:00,Group,D,Turkey,United States,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M024,2026-06-25,2026-06-26T02:00:00Z,2026-06-25 22:00 ET,2026-06-26 10:00,Group,D,Paraguay,Australia,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M025,2026-06-14,2026-06-14T17:00:00Z,2026-06-14 13:00 ET,2026-06-15 01:00,Group,E,Germany,Curacao,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M026,2026-06-14,2026-06-14T23:00:00Z,2026-06-14 19:00 ET,2026-06-15 07:00,Group,E,Ivory Coast,Ecuador,待补,待补,B,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M027,2026-06-20,2026-06-20T20:00:00Z,2026-06-20 16:00 ET,2026-06-21 04:00,Group,E,Germany,Ivory Coast,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M028,2026-06-20,2026-06-21T00:00:00Z,2026-06-20 20:00 ET,2026-06-21 08:00,Group,E,Ecuador,Curacao,待补,待补,B,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M029,2026-06-25,2026-06-25T20:00:00Z,2026-06-25 16:00 ET,2026-06-26 04:00,Group,E,Ecuador,Germany,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M030,2026-06-25,2026-06-25T20:00:00Z,2026-06-25 16:00 ET,2026-06-26 04:00,Group,E,Curacao,Ivory Coast,待补,待补,B,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M031,2026-06-14,2026-06-14T20:00:00Z,2026-06-14 16:00 ET,2026-06-15 04:00,Group,F,Netherlands,Japan,待补,待补,B,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M032,2026-06-14,2026-06-15T02:00:00Z,2026-06-14 22:00 ET,2026-06-15 10:00,Group,F,Sweden,Tunisia,待补,待补,B,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M033,2026-06-20,2026-06-20T17:00:00Z,2026-06-20 13:00 ET,2026-06-21 01:00,Group,F,Netherlands,Sweden,待补,待补,B,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M034,2026-06-20,2026-06-21T04:00:00Z,2026-06-21 00:00 ET,2026-06-21 12:00,Group,F,Tunisia,Japan,待补,待补,B,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M035,2026-06-25,2026-06-25T23:00:00Z,2026-06-25 19:00 ET,2026-06-26 07:00,Group,F,Tunisia,Netherlands,待补,待补,B,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M036,2026-06-25,2026-06-25T23:00:00Z,2026-06-25 19:00 ET,2026-06-26 07:00,Group,F,Japan,Sweden,待补,待补,B,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M037,2026-06-15,2026-06-15T19:00:00Z,2026-06-15 15:00 ET,2026-06-16 03:00,Group,G,Belgium,Egypt,待补,待补,B,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M038,2026-06-15,2026-06-16T01:00:00Z,2026-06-15 21:00 ET,2026-06-16 09:00,Group,G,Iran,New Zealand,待补,待补,B,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M039,2026-06-21,2026-06-21T19:00:00Z,2026-06-21 15:00 ET,2026-06-22 03:00,Group,G,Belgium,Iran,待补,待补,B,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M040,2026-06-21,2026-06-22T01:00:00Z,2026-06-21 21:00 ET,2026-06-22 09:00,Group,G,New Zealand,Egypt,待补,待补,B,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M041,2026-06-26,2026-06-27T03:00:00Z,2026-06-26 23:00 ET,2026-06-27 11:00,Group,G,New Zealand,Belgium,待补,待补,B,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M042,2026-06-26,2026-06-27T03:00:00Z,2026-06-26 23:00 ET,2026-06-27 11:00,Group,G,Egypt,Iran,待补,待补,B,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M043,2026-06-15,2026-06-15T16:00:00Z,2026-06-15 12:00 ET,2026-06-16 00:00,Group,H,Spain,Cape Verde,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M044,2026-06-15,2026-06-15T22:00:00Z,2026-06-15 18:00 ET,2026-06-16 06:00,Group,H,Saudi Arabia,Uruguay,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M045,2026-06-21,2026-06-21T16:00:00Z,2026-06-21 12:00 ET,2026-06-22 00:00,Group,H,Spain,Saudi Arabia,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M046,2026-06-21,2026-06-21T22:00:00Z,2026-06-21 18:00 ET,2026-06-22 06:00,Group,H,Uruguay,Cape Verde,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M047,2026-06-26,2026-06-27T00:00:00Z,2026-06-26 20:00 ET,2026-06-27 08:00,Group,H,Uruguay,Spain,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M048,2026-06-26,2026-06-27T00:00:00Z,2026-06-26 20:00 ET,2026-06-27 08:00,Group,H,Cape Verde,Saudi Arabia,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M049,2026-06-16,2026-06-16T19:00:00Z,2026-06-16 15:00 ET,2026-06-17 03:00,Group,I,France,Senegal,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M050,2026-06-16,2026-06-16T22:00:00Z,2026-06-16 18:00 ET,2026-06-17 06:00,Group,I,Iraq,Norway,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M051,2026-06-22,2026-06-22T21:00:00Z,2026-06-22 17:00 ET,2026-06-23 05:00,Group,I,France,Iraq,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M052,2026-06-22,2026-06-23T00:00:00Z,2026-06-22 20:00 ET,2026-06-23 08:00,Group,I,Norway,Senegal,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M053,2026-06-26,2026-06-26T19:00:00Z,2026-06-26 15:00 ET,2026-06-27 03:00,Group,I,Norway,France,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M054,2026-06-26,2026-06-26T19:00:00Z,2026-06-26 15:00 ET,2026-06-27 03:00,Group,I,Senegal,Iraq,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M055,2026-06-16,2026-06-17T01:00:00Z,2026-06-16 21:00 ET,2026-06-17 09:00,Group,J,Argentina,Algeria,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M056,2026-06-16,2026-06-17T04:00:00Z,2026-06-17 00:00 ET,2026-06-17 12:00,Group,J,Austria,Jordan,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M057,2026-06-22,2026-06-22T17:00:00Z,2026-06-22 13:00 ET,2026-06-23 01:00,Group,J,Argentina,Austria,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M058,2026-06-22,2026-06-23T03:00:00Z,2026-06-22 23:00 ET,2026-06-23 11:00,Group,J,Jordan,Algeria,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M059,2026-06-27,2026-06-28T02:00:00Z,2026-06-27 22:00 ET,2026-06-28 10:00,Group,J,Jordan,Argentina,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M060,2026-06-27,2026-06-28T02:00:00Z,2026-06-27 22:00 ET,2026-06-28 10:00,Group,J,Algeria,Austria,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M061,2026-06-17,2026-06-17T17:00:00Z,2026-06-17 13:00 ET,2026-06-18 01:00,Group,K,Portugal,DR Congo,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M062,2026-06-17,2026-06-18T02:00:00Z,2026-06-17 22:00 ET,2026-06-18 10:00,Group,K,Uzbekistan,Colombia,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M063,2026-06-23,2026-06-23T17:00:00Z,2026-06-23 13:00 ET,2026-06-24 01:00,Group,K,Portugal,Uzbekistan,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M064,2026-06-23,2026-06-24T02:00:00Z,2026-06-23 22:00 ET,2026-06-24 10:00,Group,K,Colombia,DR Congo,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M065,2026-06-27,2026-06-27T23:30:00Z,2026-06-27 19:30 ET,2026-06-28 07:30,Group,K,Colombia,Portugal,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M066,2026-06-27,2026-06-27T23:30:00Z,2026-06-27 19:30 ET,2026-06-28 07:30,Group,K,DR Congo,Uzbekistan,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M067,2026-06-17,2026-06-17T20:00:00Z,2026-06-17 16:00 ET,2026-06-18 04:00,Group,L,England,Croatia,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M068,2026-06-17,2026-06-17T23:00:00Z,2026-06-17 19:00 ET,2026-06-18 07:00,Group,L,Ghana,Panama,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M069,2026-06-23,2026-06-23T20:00:00Z,2026-06-23 16:00 ET,2026-06-24 04:00,Group,L,England,Ghana,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M070,2026-06-23,2026-06-23T23:00:00Z,2026-06-23 19:00 ET,2026-06-24 07:00,Group,L,Panama,Croatia,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M071,2026-06-27,2026-06-27T21:00:00Z,2026-06-27 17:00 ET,2026-06-28 05:00,Group,L,Panama,England,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M072,2026-06-27,2026-06-27T21:00:00Z,2026-06-27 17:00 ET,2026-06-28 05:00,Group,L,Croatia,Ghana,待补,待补,A,waiting,,,,,,,,90min result;team total;qualification path;cards;corners,,pending
+M073,2026-06-28,,,,Round of 32,,32强待定1A,32强待定1B,待补,待补,B,waiting,,,,,,,,winner;advance;champion path;extra time;penalties,,pending
+M074,2026-06-28,,,,Round of 32,,32强待定2A,32强待定2B,待补,待补,B,waiting,,,,,,,,winner;advance;champion path;extra time;penalties,,pending
+M075,2026-06-28,,,,Round of 32,,32强待定3A,32强待定3B,待补,待补,B,waiting,,,,,,,,winner;advance;champion path;extra time;penalties,,pending
+M076,2026-06-29,,,,Round of 32,,32强待定4A,32强待定4B,待补,待补,B,waiting,,,,,,,,winner;advance;champion path;extra time;penalties,,pending
+M077,2026-06-29,,,,Round of 32,,32强待定5A,32强待定5B,待补,待补,B,waiting,,,,,,,,winner;advance;champion path;extra time;penalties,,pending
+M078,2026-06-29,,,,Round of 32,,32强待定6A,32强待定6B,待补,待补,B,waiting,,,,,,,,winner;advance;champion path;extra time;penalties,,pending
+M079,2026-06-30,,,,Round of 32,,32强待定7A,32强待定7B,待补,待补,B,waiting,,,,,,,,winner;advance;champion path;extra time;penalties,,pending
+M080,2026-06-30,,,,Round of 32,,32强待定8A,32强待定8B,待补,待补,B,waiting,,,,,,,,winner;advance;champion path;extra time;penalties,,pending
+M081,2026-06-30,,,,Round of 32,,32强待定9A,32强待定9B,待补,待补,B,waiting,,,,,,,,winner;advance;champion path;extra time;penalties,,pending
+M082,2026-07-01,,,,Round of 32,,32强待定10A,32强待定10B,待补,待补,B,waiting,,,,,,,,winner;advance;champion path;extra time;penalties,,pending
+M083,2026-07-01,,,,Round of 32,,32强待定11A,32强待定11B,待补,待补,B,waiting,,,,,,,,winner;advance;champion path;extra time;penalties,,pending
+M084,2026-07-01,,,,Round of 32,,32强待定12A,32强待定12B,待补,待补,B,waiting,,,,,,,,winner;advance;champion path;extra time;penalties,,pending
+M085,2026-07-02,,,,Round of 32,,32强待定13A,32强待定13B,待补,待补,B,waiting,,,,,,,,winner;advance;champion path;extra time;penalties,,pending
+M086,2026-07-02,,,,Round of 32,,32强待定14A,32强待定14B,待补,待补,B,waiting,,,,,,,,winner;advance;champion path;extra time;penalties,,pending
+M087,2026-07-03,,,,Round of 32,,32强待定15A,32强待定15B,待补,待补,B,waiting,,,,,,,,winner;advance;champion path;extra time;penalties,,pending
+M088,2026-07-03,,,,Round of 32,,32强待定16A,32强待定16B,待补,待补,B,waiting,,,,,,,,winner;advance;champion path;extra time;penalties,,pending
+M089,2026-07-04,,,,Round of 16,,16强待定1A,16强待定1B,待补,待补,B,waiting,,,,,,,,winner;advance;champion path;extra time;penalties,,pending
+M090,2026-07-04,,,,Round of 16,,16强待定2A,16强待定2B,待补,待补,B,waiting,,,,,,,,winner;advance;champion path;extra time;penalties,,pending
+M091,2026-07-05,,,,Round of 16,,16强待定3A,16强待定3B,待补,待补,B,waiting,,,,,,,,winner;advance;champion path;extra time;penalties,,pending
+M092,2026-07-05,,,,Round of 16,,16强待定4A,16强待定4B,待补,待补,B,waiting,,,,,,,,winner;advance;champion path;extra time;penalties,,pending
+M093,2026-07-06,,,,Round of 16,,16强待定5A,16强待定5B,待补,待补,B,waiting,,,,,,,,winner;advance;champion path;extra time;penalties,,pending
+M094,2026-07-06,,,,Round of 16,,16强待定6A,16强待定6B,待补,待补,B,waiting,,,,,,,,winner;advance;champion path;extra time;penalties,,pending
+M095,2026-07-07,,,,Round of 16,,16强待定7A,16强待定7B,待补,待补,B,waiting,,,,,,,,winner;advance;champion path;extra time;penalties,,pending
+M096,2026-07-07,,,,Round of 16,,16强待定8A,16强待定8B,待补,待补,B,waiting,,,,,,,,winner;advance;champion path;extra time;penalties,,pending
+M097,2026-07-09,,,,Quarterfinal,,八强待定1A,八强待定1B,待补,待补,B,waiting,,,,,,,,winner;advance;champion path;extra time;penalties,,pending
+M098,2026-07-09,,,,Quarterfinal,,八强待定2A,八强待定2B,待补,待补,B,waiting,,,,,,,,winner;advance;champion path;extra time;penalties,,pending
+M099,2026-07-10,,,,Quarterfinal,,八强待定3A,八强待定3B,待补,待补,B,waiting,,,,,,,,winner;advance;champion path;extra time;penalties,,pending
+M100,2026-07-11,,,,Quarterfinal,,八强待定4A,八强待定4B,待补,待补,B,waiting,,,,,,,,winner;advance;champion path;extra time;penalties,,pending
+M101,2026-07-14,,,,Semifinal,,半决赛待定1A,半决赛待定1B,待补,待补,A,waiting,,,,,,,,winner;advance;champion path;extra time;penalties,,pending
+M102,2026-07-15,,,,Semifinal,,半决赛待定2A,半决赛待定2B,待补,待补,A,waiting,,,,,,,,winner;advance;champion path;extra time;penalties,,pending
+M103,2026-07-18,,,,Third Place,,季军赛待定1A,季军赛待定1B,待补,待补,B,waiting,,,,,,,,winner;advance;champion path;extra time;penalties,,pending
+M104,2026-07-19,,,,Final,,决赛待定1A,决赛待定1B,待补,待补,A,waiting,,,,,,,,winner;advance;champion path;extra time;penalties,,pending

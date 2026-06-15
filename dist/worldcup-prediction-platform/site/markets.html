@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>预测市场原始列表</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">原始数据查看</p>
+        <h1>预测市场原始列表</h1>
+      </div>
+      <div class="top-actions">
+        <a class="nav-link" href="./today.html">今日下注方向</a>
+        <a class="nav-link" href="./events.html">预测事件库</a>
+        <a class="nav-link" href="./progress.html">进度纵览</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="metrics" aria-label="市场指标">
+        <article>
+          <span>全部选题</span>
+          <strong id="market-total">--</strong>
+          <small>当前本地快照</small>
+        </article>
+        <article>
+          <span>买入方向</span>
+          <strong id="market-yes">--</strong>
+          <small>模型给出买 YES</small>
+        </article>
+        <article>
+          <span>等待观察</span>
+          <strong id="market-wait">--</strong>
+          <small>继续观察</small>
+        </article>
+        <article>
+          <span>回避选题</span>
+          <strong id="market-avoid">--</strong>
+          <small>状态或风险不合格</small>
+        </article>
+      </section>
+
+      <section class="toolbar" aria-label="市场筛选">
+        <div class="tabs" role="tablist" aria-label="方向筛选">
+          <button class="tab active" data-direction="all">全部</button>
+          <button class="tab" data-direction="YES">买 YES</button>
+          <button class="tab" data-direction="WAIT">等待</button>
+          <button class="tab" data-direction="AVOID">回避</button>
+        </div>
+        <label class="select-filter">
+          <span>结构</span>
+          <select id="structure-filter">
+            <option value="all">全部结构</option>
+          </select>
+        </label>
+        <label class="select-filter">
+          <span>状态</span>
+          <select id="status-filter">
+            <option value="all">全部状态</option>
+          </select>
+        </label>
+        <label class="select-filter">
+          <span>机会</span>
+          <select id="opportunity-filter">
+            <option value="all">全部机会</option>
+            <option value="buy_direction">买入方向</option>
+            <option value="high_return_watch">高回报观察</option>
+            <option value="special_event">特殊事件</option>
+            <option value="risk_avoid">风险回避</option>
+          </select>
+        </label>
+        <label class="select-filter">
+          <span>排序</span>
+          <select id="sort-mode">
+            <option value="direction">方向优先</option>
+            <option value="return_desc">回报率最高</option>
+            <option value="price_asc">价格最低</option>
+            <option value="price_desc">价格最高</option>
+          </select>
+        </label>
+        <label class="search">
+          <span>搜索</span>
+          <input id="market-search" type="search" placeholder="球队 / 结构 / 状态" />
+        </label>
+      </section>
+
+      <section id="opportunity-summary" class="opportunity-summary" aria-label="机会分布"></section>
+      <section id="focus-opportunities" class="focus-opportunities" aria-label="焦点机会"></section>
+      <section id="event-groups" class="event-groups" aria-label="事件组概览"></section>
+
+      <section class="market-table-wrap">
+        <div class="table-summary">
+          <span id="visible-count">当前显示 -- 个选题</span>
+        </div>
+        <table class="market-table">
+          <thead>
+            <tr>
+              <th>选题</th>
+              <th>方向</th>
+              <th>结构</th>
+              <th>状态</th>
+              <th>价格 / 回报率</th>
+              <th>热度 / 流动性</th>
+              <th>机会标签</th>
+              <th>赛程关联</th>
+              <th>分析</th>
+              <th>操作</th>
+            </tr>
+          </thead>
+          <tbody id="market-table-body"></tbody>
+        </table>
+      </section>
+    </main>
+
+    <script src="./markets.js"></script>
+  </body>
+</html>

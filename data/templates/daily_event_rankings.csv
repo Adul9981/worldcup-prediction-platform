@@ -1,0 +1,4 @@
+date,rank_type,rank,topic_id,platform,match_id,event_id,event_title,category,current_status,importance_score,attention_score,ignored_score,risk_reward_score,risk_score,implied_yes_probability,recommendation_track,recommended_action,recommended_stake_units,cancel_condition,copy_angle,affiliate_url
+2026-06-11,most_watched,1,,,,,Mexico vs South Africa opening match,match_context,planned,90,90,30,45,35,0,manual,wait_lineup,0.00,Price inflated by host narrative,Opening match is for discipline not impulse,
+2026-06-11,most_ignored,1,,,,,South Africa defensive/card profile,event_market,planned,45,45,65,55,45,0,manual,observe_live,0.00,Referee lenient or South Africa possession stable,The ignored angle may be cards and tempo,
+2026-06-11,best_risk_reward,1,,,,,First-half cautious tempo,event_market,planned,60,60,50,60,40,0,manual,wait_price,0.25,Lineups show aggressive setups or early market moves too far,Opening pressure can slow the first half,

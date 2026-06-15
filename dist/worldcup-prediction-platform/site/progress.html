@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>世界杯进度纵览</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">世界杯阶段与市场机会</p>
+        <h1>世界杯进度纵览</h1>
+      </div>
+      <div class="top-actions">
+        <a class="nav-link" href="./today.html">今日下注方向</a>
+        <a class="nav-link" href="./events.html">预测事件库</a>
+      </div>
+    </header>
+
+    <nav class="site-meta" aria-label="站点信息">
+      <a href="https://polymarket.com/?r=adul" target="_blank" rel="noreferrer">预测市场注册链接</a>
+      <span>邀请码：adul</span>
+      <a href="https://twitter.com/rich_adul" target="_blank" rel="noreferrer">作者推特：rich_adul</a>
+      <a href="https://t.me/serene7mc" target="_blank" rel="noreferrer">作者 Telegram：serene7mc</a>
+    </nav>
+
+    <main>
+      <section class="metrics" aria-label="进度指标">
+        <article>
+          <span>当前阶段</span>
+          <strong id="progress-current">小组赛</strong>
+        </article>
+        <article>
+          <span>已建赛程</span>
+          <strong id="progress-matches">--</strong>
+        </article>
+        <article>
+          <span>预测选题</span>
+          <strong id="progress-topics">--</strong>
+        </article>
+        <article>
+          <span>时间口径</span>
+          <strong>北京时间</strong>
+        </article>
+      </section>
+
+      <section class="market-core">
+        <div class="section-head">
+          <h2>阶段进度</h2>
+        </div>
+        <div id="progress-timeline" class="progress-timeline"></div>
+      </section>
+
+      <section class="market-core">
+        <div class="section-head">
+          <h2>全部比赛状态</h2>
+        </div>
+        <div id="upcoming-matches" class="match-list dense"></div>
+      </section>
+    </main>
+
+    <script src="./progress.js?v=20260612-football-clean"></script>
+  </body>
+</html>

@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>预测事件库</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">事件结构与策略库</p>
+        <h1>预测事件库</h1>
+      </div>
+      <div class="top-actions">
+        <a class="nav-link" href="./today.html">今日下注方向</a>
+        <a class="nav-link" href="./progress.html">进度纵览</a>
+      </div>
+    </header>
+
+    <nav class="site-meta" aria-label="站点信息">
+      <a href="https://polymarket.com/?r=adul" target="_blank" rel="noreferrer">预测市场注册链接</a>
+      <span>邀请码：adul</span>
+      <a href="https://twitter.com/rich_adul" target="_blank" rel="noreferrer">作者推特：rich_adul</a>
+      <a href="https://t.me/serene7mc" target="_blank" rel="noreferrer">作者 Telegram：serene7mc</a>
+    </nav>
+
+    <main>
+      <section class="metrics" aria-label="事件库指标">
+        <article>
+          <span>事件总数</span>
+          <strong id="event-total">--</strong>
+          <small>已上架 + 待监控</small>
+        </article>
+        <article>
+          <span>已上架</span>
+          <strong id="event-live">--</strong>
+          <small>Polymarket 当前可见</small>
+        </article>
+        <article>
+          <span>入选重点</span>
+          <strong id="event-yes">--</strong>
+          <small>通过准入的清单项</small>
+        </article>
+        <article>
+          <span>待监控</span>
+          <strong id="event-watch">--</strong>
+          <small>复杂事件和单场模板</small>
+        </article>
+      </section>
+
+      <section class="toolbar" aria-label="事件库筛选">
+        <label class="select-filter">
+          <span>状态</span>
+          <select id="availability-filter">
+            <option value="all">全部状态</option>
+          </select>
+        </label>
+        <label class="select-filter">
+          <span>类型</span>
+          <select id="category-filter">
+            <option value="all">全部类型</option>
+          </select>
+        </label>
+        <label class="select-filter">
+          <span>方向</span>
+          <select id="direction-filter">
+            <option value="all">全部方向</option>
+          </select>
+        </label>
+        <label class="search">
+          <span>搜索</span>
+          <input id="event-search" type="search" placeholder="球队 / 阶段 / 事件" />
+        </label>
+      </section>
+
+      <section class="market-table-wrap">
+        <div class="table-summary">
+          <span id="event-visible">当前显示 -- 个事件</span>
+          <span>全部预测策略与选题结构。</span>
+        </div>
+        <table class="market-table">
+          <thead>
+            <tr>
+              <th>预测事件</th>
+              <th>状态</th>
+              <th>类型</th>
+              <th>结构</th>
+              <th>风险</th>
+              <th>方向</th>
+              <th>价格 / 回报率</th>
+              <th>策略建议</th>
+              <th>触发条件</th>
+              <th>操作</th>
+            </tr>
+          </thead>
+          <tbody id="event-table-body"></tbody>
+        </table>
+      </section>
+    </main>
+
+    <script src="./events.js?v=20260612-football-clean"></script>
+  </body>
+</html>

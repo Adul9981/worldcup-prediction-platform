@@ -1,0 +1,106 @@
+category,en,zh
+team,Argentina,阿根廷
+team,Algeria,阿尔及利亚
+team,Australia,澳大利亚
+team,Austria,奥地利
+team,Belgium,比利时
+team,Bosnia and Herzegovina,波黑
+team,Bosnia-Herzegovina,波黑
+team,Brazil,巴西
+team,Canada,加拿大
+team,Cape Verde,佛得角
+team,Colombia,哥伦比亚
+team,Croatia,克罗地亚
+team,Curacao,库拉索
+team,Curaçao,库拉索
+team,Czechia,捷克
+team,DR Congo,刚果民主共和国
+team,Congo DR,刚果民主共和国
+team,Ecuador,厄瓜多尔
+team,Egypt,埃及
+team,England,英格兰
+team,France,法国
+team,Germany,德国
+team,Ghana,加纳
+team,Haiti,海地
+team,Iran,伊朗
+team,Iraq,伊拉克
+team,Ivory Coast,科特迪瓦
+team,Japan,日本
+team,Jordan,约旦
+team,Mexico,墨西哥
+team,Morocco,摩洛哥
+team,Netherlands,荷兰
+team,New Zealand,新西兰
+team,Norway,挪威
+team,Panama,巴拿马
+team,Paraguay,巴拉圭
+team,Portugal,葡萄牙
+team,Qatar,卡塔尔
+team,Saudi Arabia,沙特阿拉伯
+team,Scotland,苏格兰
+team,Senegal,塞内加尔
+team,South Africa,南非
+team,South Korea,韩国
+team,Spain,西班牙
+team,Sweden,瑞典
+team,Switzerland,瑞士
+team,Tunisia,突尼斯
+team,Turkey,土耳其
+team,Turkiye,土耳其
+team,United States,美国
+team,USA,美国
+team,Uruguay,乌拉圭
+team,Uzbekistan,乌兹别克斯坦
+market,Will any World Cup game scheduled in the U.S. be relocated abroad?,是否会有任何原定美国举办的世界杯比赛迁至境外？
+term,World Cup,世界杯
+term,FIFA World Cup,世界杯
+term,win the 2026 FIFA World Cup,赢得2026年世界杯
+term,Will,是否
+term,Any Other Team,其他球队
+term,Team AG,待定球队 AG
+term,Team AH,待定球队 AH
+term,Team AI,待定球队 AI
+term,Team AJ,待定球队 AJ
+term,Team AK,待定球队 AK
+term,Team AL,待定球队 AL
+term,Team AM,待定球队 AM
+term,Team AN,待定球队 AN
+term,Team AO,待定球队 AO
+stage,Group,小组赛
+stage,Round of 32,32强
+stage,Round of 16,16强
+stage,Quarterfinal,八强
+stage,Semifinal,半决赛
+stage,Final,决赛
+direction,YES,买 YES
+direction,NO,买 NO
+direction,WAIT,等待
+direction,AVOID,回避
+confidence,low,低置信
+confidence,medium,中等置信
+confidence,high,高置信
+structure,multi_market_mutually_exclusive_group,多选题互斥组
+structure,special_event_binary,特殊事件二元
+structure,binary_single_market,二元市场
+structure,independent_binary,独立二元
+structure,non_exclusive_related_markets,相关但不互斥
+structure,unknown_structure,结构待复核
+status,hot,高热度
+status,active,可跟踪
+status,watchlist,观察池
+status,excluded,排除
+status,closed,已关闭
+status,resolved,已结算
+role,group_favorite,小组热门
+role,host_contender,东道主竞争队
+role,host_swing,东道主摇摆队
+role,contender,竞争队
+role,swing_team,摇摆队
+role,swing_underdog,摇摆弱队
+role,weak_side,弱侧队
+source,staking_model,仓位模型
+source,scoring_model,评分模型
+source,model,模型判断
+source,manual,人工判断
+source,unavailable,暂无来源

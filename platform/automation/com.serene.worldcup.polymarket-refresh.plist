@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.serene.worldcup.polymarket-refresh</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/usr/bin/python3</string>
+    <string>/Users/ad/Documents/2026世界杯/tools/polymarket/auto_refresh_loop.py</string>
+    <string>--interval-minutes</string>
+    <string>60</string>
+    <string>--fetch</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>/Users/ad/Documents/2026世界杯</string>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>KeepAlive</key>
+  <true/>
+  <key>StandardOutPath</key>
+  <string>/Users/ad/Documents/2026世界杯/data/polymarket/launchagent.out.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/ad/Documents/2026世界杯/data/polymarket/launchagent.err.log</string>
+</dict>
+</plist>

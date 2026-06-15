@@ -1,0 +1,2 @@
+event_id,match_id,event_type,market,selection,pre_match_or_live,book_price,implied_probability,my_probability,edge,confidence,stake_units,entry_condition,cancel_condition,result,profit_units,review_note
+E001,M001,match_result,90min result,,,,"",,"",low,0.00,Lineup and price confirmed,Host narrative has inflated price,,, 

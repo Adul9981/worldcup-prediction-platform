@@ -1,0 +1,13 @@
+{
+  "updated_at": "2026-06-12T13:09:17+00:00",
+  "status": "ok",
+  "fetched_from_polymarket": false,
+  "source_snapshot_at": "2026-06-11T09:21:27+00:00",
+  "market_rows": 61,
+  "topic_rows": 61,
+  "opportunity_rows": 61,
+  "match_rows": 104,
+  "schedule_link_rows": 61,
+  "daily_ranking_rows": 15,
+  "error": ""
+}

@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>今日推荐后台</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">人工策略管理</p>
+        <h1>今日推荐后台</h1>
+      </div>
+      <div class="top-actions">
+        <a class="nav-link" href="./today.html">查看今日页</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="manual-recommendations" aria-label="今日推荐后台">
+        <div class="section-head">
+          <h2>填写今日推荐策略</h2>
+        </div>
+        <form id="manual-form" class="manual-form admin-form">
+          <label>
+            <span>管理口令</span>
+            <input id="admin-token" type="password" autocomplete="current-password" placeholder="保存线上策略需要管理口令" />
+          </label>
+          <label>
+            <span>策略标题</span>
+            <input id="manual-title" type="text" placeholder="可选：不填则自动取正文第一行" />
+          </label>
+          <label>
+            <span>推荐等级</span>
+            <select id="manual-direction">
+              <option value="强烈推荐">强烈推荐</option>
+              <option value="重点推荐">重点推荐</option>
+              <option value="价值观察">价值观察</option>
+              <option value="谨慎参与">谨慎参与</option>
+            </select>
+          </label>
+          <label>
+            <span>策略正文</span>
+            <textarea id="manual-analysis" rows="12" placeholder="可以直接粘贴完整策略，例如：
+预测：墨西哥胜（强烈推荐）
+比分预测：2-0 或 3-0
+理由：
+* 墨西哥作为东道主，主场优势明显。
+下注方向推荐：
+* 主推：墨西哥胜
+取消条件：
+* 首发不符合预期则取消"></textarea>
+          </label>
+          <label>
+            <span>市场链接</span>
+            <input id="manual-url" type="url" placeholder="可选：Polymarket 链接" />
+          </label>
+          <div class="manual-actions">
+            <button type="submit" class="tab active">保存并置顶</button>
+            <button type="button" id="manual-clear" class="tab">清空今日推荐</button>
+          </div>
+          <p id="manual-status" class="form-status" role="status"></p>
+        </form>
+      </section>
+
+      <section class="market-core">
+        <div class="section-head">
+          <h2>当前置顶列表</h2>
+        </div>
+        <div id="manual-list" class="manual-list"></div>
+      </section>
+    </main>
+
+    <script src="./admin.js?v=20260614-online-backend"></script>
+  </body>
+</html>
