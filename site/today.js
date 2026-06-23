@@ -1,3 +1,5 @@
+const ACCESS_KEY = 'worldcup_access_v1';
+
 const paths = {
   apiManual: "/api/recommendations",
   opportunities: "/data/polymarket/latest_market_opportunities.csv",
@@ -22,6 +24,7 @@ let state = {
   publishedManual: [],
   zhMap: new Map(),
   manual: [],
+  unlocked: false,
 };
 
 function parseCsv(text) {
@@ -345,29 +348,101 @@ function renderRefreshStatus() {
   root.textContent = `数据${status} · ${mode} · ${formatDateTime(state.refresh.updated_at)}`;
 }
 
+async function checkAccess() {
+  const code = localStorage.getItem(ACCESS_KEY);
+  if (!code) return false;
+  try {
+    const res = await fetch('/api/verify-code', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ code }),
+    });
+    const data = await res.json();
+    if (!data.ok) localStorage.removeItem(ACCESS_KEY);
+    return data.ok;
+  } catch {
+    return true;
+  }
+}
+
+function togglePaywallCodeForm(btn) {
+  const form = btn.closest('.paywall-card').querySelector('.paywall-code-form');
+  const hidden = form.style.display === 'none' || form.style.display === '';
+  form.style.display = hidden ? 'flex' : 'none';
+  if (hidden) form.querySelector('.unlock-input').focus();
+}
+
+async function unlockWithCode(input) {
+  const code = input.value.trim();
+  const statusEl = input.closest('.paywall-code-form').querySelector('.unlock-status');
+  if (!code) { statusEl.textContent = '请输入访问码'; statusEl.className = 'unlock-status error'; return; }
+  statusEl.textContent = '验证中…'; statusEl.className = 'unlock-status';
+  try {
+    const res = await fetch('/api/verify-code', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ code }),
+    });
+    const data = await res.json();
+    if (data.ok) {
+      localStorage.setItem(ACCESS_KEY, code);
+      state.unlocked = true;
+      renderManual();
+    } else {
+      statusEl.textContent = '❌ 访问码不正确，请检查后重试';
+      statusEl.className = 'unlock-status error';
+    }
+  } catch {
+    statusEl.textContent = '网络错误，请稍后重试';
+    statusEl.className = 'unlock-status error';
+  }
+}
+
 function renderManual() {
   const root = document.getElementById("manual-list");
   if (!state.manual.length) {
     root.innerHTML = '<article class="manual-card empty-manual"><span class="badge watchlist">今日推荐</span><h2>今日推荐待更新</h2></article>';
     return;
   }
-  root.innerHTML = state.manual
-    .map(
-      (item) => `
-      <article class="manual-card">
-        <div class="card-top">
-          <span class="badge hot">今日推荐</span>
-          <span class="track yes">${escapeHtml(item.direction || "等待")}</span>
-        </div>
-        <h2>${escapeHtml(item.title)}</h2>
-        <div class="strategy-body">${renderStrategyText(item.analysis)}</div>
-        <div class="manual-card-actions">
-          ${item.url ? `<a class="market-link" href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">前往 Polymarket</a>` : "<span></span>"}
-        </div>
-      </article>
-    `,
-    )
-    .join("");
+
+  const visibleItems = state.unlocked ? state.manual : state.manual.slice(0, 1);
+  const lockedCount = state.unlocked ? 0 : Math.max(0, state.manual.length - 1);
+
+  const itemsHtml = visibleItems.map((item) => `
+    <article class="manual-card">
+      <div class="card-top">
+        <span class="badge hot">今日推荐</span>
+        <span class="track yes">${escapeHtml(item.direction || "等待")}</span>
+      </div>
+      <h2>${escapeHtml(item.title)}</h2>
+      <div class="strategy-body">${renderStrategyText(item.analysis)}</div>
+      <div class="manual-card-actions">
+        ${item.url ? `<a class="market-link" href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">前往 Polymarket</a>` : "<span></span>"}
+      </div>
+    </article>
+  `).join('');
+
+  const paywallHtml = lockedCount > 0 ? `
+    <article class="manual-card paywall-card">
+      <div class="card-top">
+        <span class="badge watchlist">🔒 付费内容</span>
+      </div>
+      <h2>还有 ${lockedCount} 条今日策略待解锁</h2>
+      <p>订阅后查看完整预测分析、信心指数和赛后复盘。</p>
+      <div class="paywall-actions">
+        <a class="plan-cta-primary" href="./subscribe.html">立即订阅解锁</a>
+        <button class="paywall-code-toggle" onclick="togglePaywallCodeForm(this)">已有访问码</button>
+      </div>
+      <div class="paywall-code-form" style="display:none">
+        <input type="text" class="unlock-input" placeholder="输入访问码" autocomplete="off"
+          onkeydown="if(event.key==='Enter')unlockWithCode(this)" />
+        <button class="unlock-btn" onclick="unlockWithCode(this.previousElementSibling)">解锁</button>
+        <span class="unlock-status" role="status"></span>
+      </div>
+    </article>
+  ` : '';
+
+  root.innerHTML = itemsHtml + paywallHtml;
 }
 
 function renderPrimary() {
@@ -431,6 +506,7 @@ async function main() {
   ]);
   buildGlossary();
   loadManual();
+  state.unlocked = await checkAccess();
   render();
 }
 

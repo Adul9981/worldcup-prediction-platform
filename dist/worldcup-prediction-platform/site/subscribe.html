@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>订阅解锁 · 世界杯预测</title>
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">付费解锁</p>
+        <h1>世界杯预测服务</h1>
+      </div>
+      <div class="top-actions">
+        <a class="nav-link" href="./today.html">返回今日页</a>
+      </div>
+    </header>
+
+    <main class="subscribe-main">
+
+      <!-- 已有访问码 -->
+      <section class="subscribe-unlock-top" aria-label="已有访问码">
+        <div class="unlock-inline-wrap">
+          <span class="unlock-inline-label">已有访问码？</span>
+          <input id="sub-code-input" type="text" class="unlock-input" placeholder="输入访问码" autocomplete="off" />
+          <button id="sub-code-btn" class="unlock-btn">立即解锁</button>
+          <span id="sub-code-status" class="unlock-status" role="status"></span>
+        </div>
+      </section>
+
+      <!-- 定价 -->
+      <section class="subscribe-section" aria-label="订阅套餐">
+        <div class="section-head">
+          <h2>选择套餐</h2>
+          <p>早鸟优惠进行中 · 前 10 人享受最低价 · 订阅人数越多价格越高</p>
+        </div>
+
+        <div class="subscribe-plans">
+
+          <article class="plan-card">
+            <div class="plan-header">
+              <span class="plan-badge watchlist">单日</span>
+              <h3>今日策略</h3>
+            </div>
+            <div class="plan-price">
+              <span class="price-main">¥49</span>
+              <span class="price-usd">/ $7</span>
+            </div>
+            <p class="plan-note">早鸟价（前10人）· 正常价 ¥69</p>
+            <ul class="plan-features">
+              <li>当天全部比赛预测</li>
+              <li>赛前详细分析理由</li>
+              <li>信心指数评级</li>
+              <li>赛后结果复盘</li>
+            </ul>
+            <a class="plan-cta" href="#payment">立即购买</a>
+          </article>
+
+          <article class="plan-card plan-featured">
+            <div class="plan-header">
+              <span class="plan-badge hot">推荐</span>
+              <h3>世界杯包月</h3>
+            </div>
+            <div class="plan-price">
+              <span class="price-main">¥299</span>
+              <span class="price-usd">/ $42</span>
+            </div>
+            <p class="plan-note">早鸟价（前10人）· 正常价 ¥399 · 上限 ¥599</p>
+            <ul class="plan-features">
+              <li>整个世界杯期间全部预测</li>
+              <li>每日更新赛后结果</li>
+              <li>赛前分析 + 信心指数</li>
+              <li>历史战绩公开透明</li>
+              <li>整体战绩不佳可申请部分退款</li>
+            </ul>
+            <a class="plan-cta plan-cta-primary" href="#payment">立即购买</a>
+          </article>
+
+          <article class="plan-card">
+            <div class="plan-header">
+              <span class="plan-badge" style="background:var(--purple);color:#fff;">永久会员</span>
+              <h3>终身订阅</h3>
+            </div>
+            <div class="plan-price">
+              <span class="price-main">¥1,999</span>
+              <span class="price-usd">/ $282</span>
+            </div>
+            <p class="plan-note">早鸟价（限前 300 人）· 正常价 ¥2,999</p>
+            <ul class="plan-features">
+              <li>终身全部预测（足球 + 篮球 + 电竞）</li>
+              <li>专属微信 / Telegram 会员群</li>
+              <li>优先回复和一对一答疑</li>
+              <li>历史战绩数据导出</li>
+              <li>首购减 ¥30 优惠</li>
+            </ul>
+            <a class="plan-cta" href="#payment">立即购买</a>
+          </article>
+
+        </div>
+
+        <p class="subscribe-disclaimer">
+          ⚠️ 预测为理性参考，不构成下注建议。所有战绩公开透明，包含成功和失败案例。理性参与，享受比赛。
+        </p>
+      </section>
+
+      <!-- 支付方式 -->
+      <section id="payment" class="subscribe-section" aria-label="支付方式">
+        <div class="section-head">
+          <h2>如何购买</h2>
+          <p>三步完成订阅，全程人工确认</p>
+        </div>
+
+        <div class="payment-steps">
+          <div class="payment-step">
+            <span class="step-num">1</span>
+            <div>
+              <strong>选择套餐并扫码付款</strong>
+              <p>支持微信 / 支付宝 / USDT（TRC20）</p>
+            </div>
+          </div>
+          <div class="payment-step">
+            <span class="step-num">2</span>
+            <div>
+              <strong>发送付款截图</strong>
+              <p>截图发送到 Telegram <a href="https://t.me/serene7mc" target="_blank" rel="noreferrer">@serene7mc</a> 或微信（见下方二维码）</p>
+            </div>
+          </div>
+          <div class="payment-step">
+            <span class="step-num">3</span>
+            <div>
+              <strong>收到访问码，输入解锁</strong>
+              <p>通常 30 分钟内回复访问码，输入上方"已有访问码"框即可解锁</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="payment-methods">
+          <!-- 微信支付 -->
+          <div class="payment-qr-card">
+            <div class="qr-placeholder">
+              <span class="qr-label">微信收款码</span>
+              <div class="qr-img-wrap">
+                <!-- 在此处替换为你的微信收款码图片 -->
+                <!-- <img src="./qr-wechat.png" alt="微信收款码" /> -->
+                <div class="qr-todo">
+                  <p>请在此放置</p>
+                  <p>微信收款码图片</p>
+                  <p class="qr-file">文件名：qr-wechat.png</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 支付宝 -->
+          <div class="payment-qr-card">
+            <div class="qr-placeholder">
+              <span class="qr-label">支付宝收款码</span>
+              <div class="qr-img-wrap">
+                <!-- 在此处替换为你的支付宝收款码图片 -->
+                <!-- <img src="./qr-alipay.png" alt="支付宝收款码" /> -->
+                <div class="qr-todo">
+                  <p>请在此放置</p>
+                  <p>支付宝收款码图片</p>
+                  <p class="qr-file">文件名：qr-alipay.png</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- USDT -->
+          <div class="payment-qr-card">
+            <div class="qr-placeholder">
+              <span class="qr-label">USDT（TRC20）</span>
+              <div class="qr-img-wrap qr-crypto">
+                <!-- 在此处填写你的 USDT 钱包地址 -->
+                <p class="qr-crypto-label">钱包地址</p>
+                <p class="qr-address" id="usdt-address">请填写你的 TRC20 地址</p>
+                <button class="copy-btn" onclick="copyAddress()">复制地址</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 联系方式 -->
+          <div class="payment-qr-card">
+            <div class="qr-placeholder">
+              <span class="qr-label">联系 / 客服</span>
+              <div class="qr-img-wrap qr-contact">
+                <p><a href="https://t.me/serene7mc" target="_blank" rel="noreferrer">📱 Telegram：@serene7mc</a></p>
+                <p><a href="https://twitter.com/rich_adul" target="_blank" rel="noreferrer">🐦 Twitter：@rich_adul</a></p>
+                <p class="contact-note">发送付款截图后通常 30 分钟内回复</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 常见问题 -->
+      <section class="subscribe-section" aria-label="常见问题">
+        <div class="section-head">
+          <h2>常见问题</h2>
+        </div>
+        <div class="faq-list">
+          <div class="faq-item">
+            <strong>访问码是什么？</strong>
+            <p>访问码是一串简短的文字，相当于"本月密码"。付款后发给你，输入到今日页的解锁框即可看到完整预测内容。</p>
+          </div>
+          <div class="faq-item">
+            <strong>访问码有效期多久？</strong>
+            <p>单日码当天有效，包月码整个世界杯期间有效，永久会员码长期有效。</p>
+          </div>
+          <div class="faq-item">
+            <strong>可以退款吗？</strong>
+            <p>包月套餐支持赛后 7 天内若整体战绩不佳申请部分退款。单日套餐当天内容已发布后不退款。</p>
+          </div>
+          <div class="faq-item">
+            <strong>预测一定准确吗？</strong>
+            <p>不。我们提供的是数据驱动的分析参考，不是保证结果。所有预测结果（包括失败案例）都会公开复盘。</p>
+          </div>
+          <div class="faq-item">
+            <strong>免费内容有哪些？</strong>
+            <p>今日页每天免费展示 1 条预测预览，历史战绩页全部公开，任何人可以查看我们的真实战绩。</p>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <span>理性参考，享受比赛 · 不构成投注建议</span>
+    </footer>
+
+    <script>
+      function copyAddress() {
+        const addr = document.getElementById('usdt-address').textContent.trim();
+        if (addr === '请填写你的 TRC20 地址') return;
+        navigator.clipboard.writeText(addr).then(() => {
+          const btn = document.querySelector('.copy-btn');
+          btn.textContent = '已复制！';
+          setTimeout(() => { btn.textContent = '复制地址'; }, 2000);
+        });
+      }
+
+      const ACCESS_KEY = 'worldcup_access_v1';
+
+      document.getElementById('sub-code-btn').addEventListener('click', async () => {
+        const code = document.getElementById('sub-code-input').value.trim();
+        const status = document.getElementById('sub-code-status');
+        if (!code) { status.textContent = '请输入访问码'; status.className = 'unlock-status error'; return; }
+        status.textContent = '验证中…'; status.className = 'unlock-status';
+        try {
+          const res = await fetch('/api/verify-code', {
+            method: 'POST',
+            headers: { 'content-type': 'application/json' },
+            body: JSON.stringify({ code })
+          });
+          const data = await res.json();
+          if (data.ok) {
+            localStorage.setItem(ACCESS_KEY, code);
+            status.textContent = '✅ 解锁成功！正在跳转…'; status.className = 'unlock-status success';
+            setTimeout(() => { window.location.href = './today.html'; }, 1200);
+          } else {
+            status.textContent = '❌ 访问码不正确，请检查后重试'; status.className = 'unlock-status error';
+          }
+        } catch {
+          status.textContent = '网络错误，请稍后重试'; status.className = 'unlock-status error';
+        }
+      });
+
+      document.getElementById('sub-code-input').addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') document.getElementById('sub-code-btn').click();
+      });
+    </script>
+  </body>
+</html>
